@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'welcome' => 'Добро пожаловать',
+    'dashboard' => 'Панель управления',
+    'products' => 'Товары',
+    'orders' => 'Заказы',
+    'wallet' => 'Кошелек',
+    'messages' => 'Сообщения',
+    'disputes' => 'Споры',
+    'admin' => 'Админ панель',
+    'logout' => 'Выйти',
+    'login' => 'Войти',
+    'register' => 'Регистрация',
+    'search' => 'Поиск',
+    'filter' => 'Фильтр',
+    'price' => 'Цена',
+    'rating' => 'Рейтинг',
+    'buy' => 'Купить',
+    'sell' => 'Продать',
+    'balance' => 'Баланс',
+    'deposit' => 'Пополнить',
+    'withdraw' => 'Вывести',
+    'pending' => 'Ожидает',
+    'completed' => 'Завершено',
+    'cancelled' => 'Отменено',
+    'delivered' => 'Доставлено',
+    'disputed' => 'Спор',
+];
+

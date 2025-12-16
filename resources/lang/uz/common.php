@@ -1,0 +1,30 @@
+<?php
+
+return [
+    'welcome' => 'Xush kelibsiz',
+    'dashboard' => 'Boshqaruv paneli',
+    'products' => 'Mahsulotlar',
+    'orders' => 'Buyurtmalar',
+    'wallet' => 'Hamyon',
+    'messages' => 'Xabarlar',
+    'disputes' => 'Nizolar',
+    'admin' => 'Admin panel',
+    'logout' => 'Chiqish',
+    'login' => 'Kirish',
+    'register' => 'Ro\'yxatdan o\'tish',
+    'search' => 'Qidirish',
+    'filter' => 'Filter',
+    'price' => 'Narx',
+    'rating' => 'Reyting',
+    'buy' => 'Sotib olish',
+    'sell' => 'Sotish',
+    'balance' => 'Balans',
+    'deposit' => 'To\'ldirish',
+    'withdraw' => 'Yechib olish',
+    'pending' => 'Kutilmoqda',
+    'completed' => 'Tugallangan',
+    'cancelled' => 'Bekor qilingan',
+    'delivered' => 'Yetkazilgan',
+    'disputed' => 'Nizo',
+];
+
