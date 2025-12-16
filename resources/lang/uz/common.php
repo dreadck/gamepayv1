@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'site_name' => 'GamePay',
     'welcome' => 'Xush kelibsiz',
     'dashboard' => 'Boshqaruv paneli',
     'products' => 'Mahsulotlar',
@@ -27,4 +28,3 @@ return [
     'delivered' => 'Yetkazilgan',
     'disputed' => 'Nizo',
 ];
-

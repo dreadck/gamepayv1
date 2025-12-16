@@ -1,4 +1,4 @@
-# Digital Marketplace - Laravel Application
+# GamePay - Digital Marketplace
 
 A production-ready digital marketplace platform built with Laravel 12, featuring full Playerok-level functionality.
 
@@ -86,7 +86,11 @@ A production-ready digital marketplace platform built with Laravel 12, featuring
    php artisan storage:link
    ```
 
-8. Build assets:
+8. Add your GamePay logo:
+   - Place logo file in `public/images/logo.png` or `public/images/logo.svg`
+   - Logo should feature "GAMEPAY" text with red sword/katana design
+
+9. Build assets:
    ```bash
    npm run build
    ```
@@ -98,6 +102,14 @@ After seeding:
 - Password: `password`
 
 **⚠️ Change these credentials immediately in production!**
+
+## Logo Setup
+
+The GamePay logo should be placed in `public/images/` directory:
+- Preferred formats: PNG (with transparency) or SVG
+- Recommended names: `logo.png` or `logo.svg`
+- The application will automatically detect and use the logo
+- If logo is not found, it will display "GAMEPAY" as text fallback
 
 ## Scheduled Tasks
 
@@ -134,7 +146,8 @@ app/
 │   │   └── Auth/         # Authentication controllers
 │   └── Middleware/       # Custom middleware
 ├── Models/               # Eloquent models
-└── Services/            # Business logic services
+├── Services/            # Business logic services
+└── Helpers/             # Helper classes (LogoHelper)
 
 database/
 ├── migrations/          # Database migrations
@@ -145,6 +158,9 @@ resources/
 │   ├── ru/            # Russian translations
 │   └── uz/            # Uzbek translations
 └── views/             # Blade templates
+
+public/
+└── images/            # Logo and static images
 ```
 
 ## Key Services
@@ -186,6 +202,22 @@ The application supports Russian and Uzbek (Latin) languages. Language can be sw
 - URL parameter: `?lang=ru` or `?lang=uz`
 - Session storage
 - Accept-Language header
+- Language switcher route: `/lang/{locale}`
+
+## Logo Helper
+
+Use the LogoHelper class to display the logo in your views:
+
+```php
+// In Blade templates
+{!! \App\Helpers\LogoHelper::html('logo-class') !!}
+
+// Get logo path
+$logoPath = \App\Helpers\LogoHelper::path();
+
+// Get site name
+$siteName = \App\Helpers\LogoHelper::name();
+```
 
 ## License
 

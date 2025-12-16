@@ -1,0 +1,16 @@
+Place your GamePay logo here.
+
+Logo should be named: logo.png or logo.svg
+Recommended location: public/images/logo.png or public/images/logo.svg
+
+Logo description from user:
+- Text: "GAMEPAY" in bold, uppercase, red sans-serif letters
+- Sword/katana: Red, diagonal across the right side, intersecting letters "P" and "A"
+- Sword features: White dots along upper edge (textured hilt/sheath)
+- Background: White/transparent
+
+For best results:
+- Use PNG with transparency or SVG format
+- Recommended size: 200x60px or larger (2x for retina displays)
+- Maintain aspect ratio
+

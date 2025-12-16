@@ -23,8 +23,8 @@ class DatabaseSeeder extends Seeder
 
         // Create default settings
         Setting::set('commission_rate', 5.0, 'float', 'finance');
-        Setting::set('site_name', 'Marketplace', 'string', 'general');
-        Setting::set('site_description', 'Digital Marketplace', 'string', 'general');
+        Setting::set('site_name', 'GamePay', 'string', 'general');
+        Setting::set('site_description', 'GamePay - Digital Marketplace', 'string', 'general');
 
         // Create sample categories
         $categories = [
